@@ -66,6 +66,12 @@ bootstrap:
               - cdf-group: cdf:all:read
                 idp-source-id:  5bb87f8e-98b8-490f-a99c-1f3dbd8ccde9 # for the AAD Group to be matched to cdf-group
                 idp-source-name: bootcamp-30-test-all-read
+              - cdf-group: cdf:uc:owner
+                idp-source-id: 78734b0a-d882-42da-9280-aead63f20fb4 # for the AAD Group to be matched to cdf-group
+                idp-source-name: bootcamp-30-test-uc-001-oee-owner # i.e. bootcamp-01-test-all-owner
+              - cdf-group: cdf:uc:read
+                idp-source-id:  3bf09c79-88ce-4ade-9575-6fba88ea28fd # for the AAD Group to be matched to cdf-group
+                idp-source-name: bbootcamp-test-30-uc-001-oee-read
 
         - cdf-project: cdf-bootcamp-30-prod # i.e. bootcamp-01-test
           mappings:
