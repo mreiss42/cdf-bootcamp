@@ -8,7 +8,7 @@ destination:
     type: asset_hierarchy
 ignoreNullFields: true
 shared: true
-action: update
+action: upsert
 schedule:
   interval: 0 * * * *
   isPaused: false
