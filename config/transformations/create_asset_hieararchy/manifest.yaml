@@ -8,8 +8,11 @@ destination:
     type: asset_hierarchy
 ignoreNullFields: true
 shared: true
-action: upsert
-dataSetExternalId: src:all
+action: update
+schedule:
+  interval: 0 * * * *
+  isPaused: false
+dataSetExternalId: src:001:sap:ds
 # Added authentication information
 authentication:
     clientId: ${COGNITE_CLIENT_ID}
