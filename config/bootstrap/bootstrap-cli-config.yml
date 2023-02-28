@@ -64,13 +64,13 @@ bootstrap:
                 idp-source-id: bbfb0150-5b33-47ff-a5cb-8dcebc41ba0c # for the AAD Group to be matched to cdf-group
                 idp-source-name: bootcamp-30-test-all-owner # i.e. bootcamp-01-test-all-owner
               - cdf-group: cdf:all:read
-                idp-source-id:  5bb87f8e-98b8-490f-a99c-1f3dbd8ccde9 # for the AAD Group to be matched to cdf-group
+                idp-source-id: 5bb87f8e-98b8-490f-a99c-1f3dbd8ccde9  # for the AAD Group to be matched to cdf-group
                 idp-source-name: bootcamp-30-test-all-read
               - cdf-group: cdf:uc:owner
                 idp-source-id: 78734b0a-d882-42da-9280-aead63f20fb4 # for the AAD Group to be matched to cdf-group
                 idp-source-name: bootcamp-30-test-uc-001-oee-owner # i.e. bootcamp-01-test-all-owner
               - cdf-group: cdf:uc:read
-                idp-source-id:  3bf09c79-88ce-4ade-9575-6fba88ea28fd # for the AAD Group to be matched to cdf-group
+                idp-source-id: 3bf09c79-88ce-4ade-9575-6fba88ea28fd  # for the AAD Group to be matched to cdf-group
                 idp-source-name: bbootcamp-test-30-uc-001-oee-read
 
         - cdf-project: cdf-bootcamp-30-prod # i.e. bootcamp-01-test
@@ -82,7 +82,7 @@ bootstrap:
                 idp-source-id: b0e47ec1a-407a-4efa-ac48-111bdff4484f # for the AAD Group to be matched to cdf-group
                 idp-source-name: bootcamp-30-prod-all-owner # i.e. bootcamp-01-test-all-owner
               - cdf-group: cdf:all:read
-                idp-source-id:  87cbac76-b5fc-4184-8931-a331fb4eca2c # for the AAD Group to be matched to cdf-group
+                idp-source-id: 87cbac76-b5fc-4184-8931-a331fb4eca2c  # for the AAD Group to be matched to cdf-group
                 idp-source-name: bootcamp-30-prod-all-read
 
     namespaces:
@@ -105,10 +105,10 @@ bootstrap:
               - node-name: uc:001:oee
                 description: Use case 001 Over all Equipment effectiveness
                 shared-access:
-                  read:
-                    - node-name: src:001:sap
-                    - node-name: src:002:opcua
-        
+                    read:
+                        - node-name: src:001:sap
+                        - node-name: src:002:opcua
+
 
 
 # de-facto standards for CDF CogniteClient and logger configuration.
